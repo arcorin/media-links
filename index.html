@@ -9,7 +9,7 @@
     <!--  -->
     <meta name="robots" content="index, follow" />
     <meta name="description" content="Link-uri publicatii online" />
-    <!--  -->
+    <!-- SEO -->
     <meta property="og:title" content="Media Info" />
     <meta property="og:site_name" content="Media Info" /> <!-- @TODO -->
     <meta property="og:type" content="website" />
@@ -18,6 +18,8 @@
     <meta property="og:image" content="og-image.jpg" /> <!-- @TODO -->
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+
+    <meta name="referrer" content="origin-when-crossorigin">
 
     <link rel="stylesheet" href="style.css" />
 
@@ -29,193 +31,346 @@
             <!--
             <img class="Avatar" src="" width="300" height="300" alt="" />
             -->
-            <h1 class="TitululPaginii">
-                <strong>Media Links</strong>
-            </h1>
-            <p class="DescrierePrincipala">
-                Best online resources
-            </p>
+
+            <div>
+                <h1 class="TitululPaginii">
+                    <strong>Media Links</strong>
+                </h1>
+                <p class="DescrierePrincipala">
+                    favorite resources
+                </p>
+            </div>
+
+            <!-- Menu - Flags  -->
+            <div class="MenuFlags">
+                <a href="#uk">
+                    <img src="images/gb.svg" alt="United Kingdom flag" width="18" height="auto">
+                </a>
+                <a href="#us">
+                    <img src="images/us.svg" alt="United States flag" width="18" height="auto">
+                </a>
+                <a href="#eu">
+                    <img src="images/Flag_of_Europe.svg.png" alt="European Union flag" width="18" height="auto">
+                </a>
+                <a href="#ro">
+                    <img src="images/ro.svg" alt="Romanian Flag" width="18" height="auto">
+                </a>
+                <a href="#facebook">
+                    <img src="images/facebook-new.png" alt="Facebook Icon" width="22" height="auto">
+                </a>
+            </div>
+
         </header>
 
 
         <!-- Main ....................................................... -->
         <main>
             <ul class="ListaLinkuri">
+                <li class="ListaItem" id="uk">
+                    <a href="https://www.bbc.com/news" class="ListaLink" title="Title" target="_blank">
+                        <h2 class="ListaTitlu">
+                            <img src="images/gb.svg" alt="United Kigdom Flag" width="18" height="auto">
+                            BBC News
+                        </h2>
+                        <p class="ListaText">https://www.bbc.com/news</p>
+                    </a>
+                </li>
 
                 <li class="ListaItem">
                     <a href="https://www.economist.com/" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">The Economist</h2>
+                        <h2 class="ListaTitlu">
+                            <img src="images/gb.svg" alt="United Kigdom Flag" width="18" height="auto">
+                            The Economist
+                        </h2>
                         <p class="ListaText">https://www.economist.com/ (s)</p>
                     </a>
                 </li>
 
                 <li class="ListaItem">
                     <a href="https://www.ft.com/" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">Financial Times</h2>
-                        <p class="ListaText">https://www.ft.com/</p>
+                        <h2 class="ListaTitlu"></h2>
+                        <img src="images/gb.svg" alt="United Kigdom Flag" width="18" height="auto">
+                            Financial Times
+                        </h2>
+                        <p class="ListaText">https://www.ft.com/ (s)</p>
                     </a>
                 </li>
 
                 <li class="ListaItem">
                     <a href="https://www.wsj.com/"  class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">Wall Street Journal</h2>
-                        <p class="ListaText">https://www.wsj.com/</p>
+                        <h2 class="ListaTitlu">
+                            <img src="images/gb.svg" alt="United Kigdom Flag" width="18" height="auto">
+                            Wall Street Journal
+                        </h2>
+                        <p class="ListaText">https://www.wsj.com/ (s)</p>
                     </a>
                 </li>
 
-                <li class="ListaItem">
-                    <a href="https://www.politico.eu/" class="ListaLink"  title="Title" target="_blank">
-                        <h2 class="ListaTitlu">Politico</h2>
-                        <p class="ListaText">https://www.politico.eu/</p>
-                    </a>
-                </li>
-
-                <li class="ListaItem">
-                    <a href="https://www.gisreportsonline.com/" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">GIS Reports Online</h2>
-                        <p class="ListaText">https://www.gisreportsonline.com/</p>
-                    </a>
-                </li>
-
-                <li class="ListaItem">
-                    <a href="https://worldview.stratfor.com/" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">Stratfor</h2>
-                        <p class="ListaText">https://worldview.stratfor.com/ (s)</p>
-                    </a>
-                </li>
-
-                <li class="ListaItem">
-                    <a href="https://geopoliticalrisks.global/" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">Geopolitical Intelligence Group </h2>
-                        <p class="ListaText">https://geopoliticalrisks.global/</p>
+                <!-- US -->
+                <li class="ListaItem" id="us">
+                    <a href="https://foreignpolicy.com/" class="ListaLink" title="Title" target="_blank">
+                        <h2 class="ListaTitlu">
+                            <img src="images/us.svg" alt="United States Flag" width="18" height="auto">
+                            Foreign Policy Magazine 
+                        </h2>
+                        <p class="ListaText">https://foreignpolicy.com/ (s)</p>
                     </a>
                 </li>
 
                 <li class="ListaItem">
                     <a href="https://www.understandingwar.org/" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">Institute for the Study of War</h2>
+                        <h2 class="ListaTitlu">
+                            <img src="images/us.svg" alt="United Stated Flag" width="18" height="auto">
+                            Institute for the Study of War
+                        </h2>
                         <p class="ListaText">https://www.understandingwar.org/</p>
                     </a>
                 </li>
 
                 <li class="ListaItem">
-                    <a href="https://www.bbc.com/news" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">BBC News</h2>
-                        <p class="ListaText">https://www.bbc.com/news</p>
+                    <a href="https://worldview.stratfor.com/" class="ListaLink" title="Title" target="_blank">
+                        <h2 class="ListaTitlu">
+                            <img src="images/us.svg" alt="United States Flag" width="18" height="auto">
+                            Stratfor
+                        </h2>
+                        <p class="ListaText">https://worldview.stratfor.com/ (s)</p>
+                    </a>
+                </li>
+
+                <!-- EU -->
+                <li class="ListaItem" id="eu">
+                    <a href="https://www.politico.eu/" class="ListaLink"  title="Title" target="_blank">
+                        <h2 class="ListaTitlu">
+                            <img src="images/Flag_of_Europe.svg.png" alt="European Union Flag" width="18" height="auto">
+                            Politico
+                        </h2>
+                        <p class="ListaText">https://www.politico.eu/</p>
                     </a>
                 </li>
 
                 <li class="ListaItem">
+                    <a href="https://www.euronews.com/" class="ListaLink" title="Title" target="_blank">
+                        <h2 class="ListaTitlu">
+                            <img src="images/Flag_of_Europe.svg.png" alt="European Union Flag" width="18" height="auto">
+                            Euronews
+                        </h2>
+                        <p class="ListaText">https://www.euronews.com/</p>
+                    </a>
+                </li>
+
+                <li class="ListaItem">
+                    <a href="https://www.gisreportsonline.com/" class="ListaLink" title="Title" target="_blank">
+                        <h2 class="ListaTitlu">
+                            <img src="images/li.svg" alt="Liechtenstein Flag" width="18" height="auto">
+                            GIS Reports Online
+                        </h2>
+                        <p class="ListaText">https://www.gisreportsonline.com/</p>
+                    </a>
+                </li>
+
+                <li class="ListaItem">
+                    <a href="https://geopoliticalrisks.global/" class="ListaLink" title="Title" target="_blank">
+                        <h2 class="ListaTitlu">
+                            <img src="images/au.svg" alt="Australia Flag" width="18" height="auto">
+                            Geopolitical Intelligence Group
+                        </h2>
+                        <p class="ListaText">https://geopoliticalrisks.global/</p>
+                    </a>
+                </li>
+
+                
+                <!-- RO -->
+                <li class="ListaItem" id="ro">
+                    <a href="https://www.contributors.ro/" class="ListaLink" title="Title" target="_blank">
+                        <h2 class="ListaTitlu">
+                            <img src="images/ro.svg" alt="Romanian" width="18" height="auto">
+                            Contributors
+                        </h2>
+                        <p class="ListaText">https://www.contributors.ro/</p>
+                    </a>
+                </li>
+
+
+                <li class="ListaItem">
                     <a href="https://expertforum.ro/" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">Expert Forum</h2>
+                        <h2 class="ListaTitlu">
+                            <img src="images/ro.svg" alt="Romanian" width="18" height="auto">
+                            Expert Forum
+                        </h2>
                         <p class="ListaText">https://expertforum.ro/</p>
                     </a>
                 </li>
 
                 <li class="ListaItem">
+                    <a href="https://www.euronews.ro/" class="ListaLink" title="Title" target="_blank">
+                        <h2 class="ListaTitlu">
+                            <img src="images/ro.svg" alt="United Kigdom's Flag" width="18" height="auto">
+                            Euronews.Romania
+                        </h2>
+                        <p class="ListaText">https://www.euronews.ro/</p>
+                    </a>
+                </li>
+
+
+                <li class="ListaItem">
                     <a href="https://panorama.ro/" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">Panorama</h2>
+                        <h2 class="ListaTitlu">
+                            <img src="images/ro.svg" alt="Romanian" width="18" height="auto">
+                            Panorama
+                        </h2>
                         <p class="ListaText">https://panorama.ro/</p>
                     </a>
                 </li>
 
                 <li class="ListaItem">
                     <a href="https://cursdeguvernare.ro/" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">Curs de guvernare</h2>
+                        <h2 class="ListaTitlu">
+                            <img src="images/ro.svg" alt="Romanian" width="18" height="auto">
+                            Curs de guvernare
+                        </h2>
                         <p class="ListaText">https://cursdeguvernare.ro/</p>
                     </a>
                 </li>
                 
-                <li class="ListaItem">
-                    <a href="https://www.contributors.ro/" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">Contributors</h2>
-                        <p class="ListaText">https://www.contributors.ro/</p>
-                    </a>
-                </li>
+                
 
                 <li class="ListaItem">
-                    <a href="https://intelligence.sri.ro/" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">Revista Intelligence</h2>
-                        <p class="ListaText">https://intelligence.sri.ro/</p>
-                    </a>
-                </li>
-
-                <li class="ListaItem">
-                    <a href="https://revista22.ro/" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">Revista 22</h2>
-                        <p class="ListaText">https://revista22.ro/</p>
-                    </a>
-                </li>
-
-                <li class="ListaItem">
-                    <a href="https://www.hotnews.ro/" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">Hotnews</h2>
-                        <p class="ListaText">https://www.hotnews.ro/</p>
+                    <a href="https://financialintelligence.ro/" class="ListaLink" title="Title" target="_blank">
+                        <h2 class="ListaTitlu">
+                            <img src="images/ro.svg" alt="Romanian" width="18" height="auto">
+                            Financial intelligence
+                        </h2>
+                        <p class="ListaText">https://financialintelligence.ro/</p>
                     </a>
                 </li>
 
                 <li class="ListaItem">
                     <a href="https://www.g4media.ro/" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">G4Media</h2>
+                        <h2 class="ListaTitlu">
+                            <img src="images/ro.svg" alt="Romanian" width="18" height="auto">                            
+                            G4Media
+                        </h2>
                         <p class="ListaText">https://www.g4media.ro/</p>
                     </a>
                 </li>
 
                 <li class="ListaItem">
+                    <a href="https://intelligence.sri.ro/" class="ListaLink" title="Title" target="_blank">
+                        <h2 class="ListaTitlu">
+                            <img src="images/ro.svg" alt="Romanian" width="18" height="auto">
+                            Revista Intelligence
+                        </h2>
+                        <p class="ListaText">https://intelligence.sri.ro/</p>
+                    </a>
+                </li>
+
+                <li class="ListaItem">
+                    <a href="https://www.rfi.ro/" class="ListaLink" title="Title" target="_blank">
+                        <h2 class="ListaTitlu">
+                            <img src="images/ro.svg" alt="Romanian" width="18" height="auto">
+                            RFI Romania
+                        </h2>
+                        <p class="ListaText">https://www.rfi.ro/</p>
+                    </a>
+                </li>
+
+                <li class="ListaItem">
+                    <a href="https://revista22.ro/" class="ListaLink" title="Title" target="_blank">
+                        <h2 class="ListaTitlu">
+                            <img src="images/ro.svg" alt="Romanian" width="18" height="auto">
+                            Revista 22
+                        </h2>
+                        <p class="ListaText">https://revista22.ro/</p>
+                    </a>
+                </li>
+
+                <li class="ListaItem">
                     <a href="https://newsweek.ro/" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">Newsweek Romania</h2>
+                        <h2 class="ListaTitlu">
+                            <img src="images/ro.svg" alt="Romanian" width="18" height="auto">
+                            Newsweek Romania
+                        </h2>
                         <p class="ListaText">https://newsweek.ro/</p>
                     </a>
                 </li>
 
                 <li class="ListaItem">
                     <a href="https://republica.ro/" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">Republica</h2>
+                        <h2 class="ListaTitlu">
+                            <img src="images/ro.svg" alt="Romanian" width="18" height="auto">
+                            Republica
+                        </h2>
                         <p class="ListaText">https://republica.ro/</p>
                     </a>
                 </li>
 
                 <li class="ListaItem">
                     <a href="https://dilemaveche.ro/" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">Dilema Veche</h2>
+                        <h2 class="ListaTitlu">
+                            <img src="images/ro.svg" alt="Romanian" width="18" height="auto">
+                            Dilema Veche
+                        </h2>
                         <p class="ListaText">https://dilemaveche.ro/</p>
                     </a>
                 </li>
 
                 <li class="ListaItem">
-                    <a href="https://www.rfi.ro/" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">RFI Romania</h2>
-                        <p class="ListaText">https://www.rfi.ro/</p>
-                    </a>
-                </li>
-
-                <li class="ListaItem">
-                    <a href="https://www.euronews.com/" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">Euronews</h2>
-                        <p class="ListaText">https://www.euronews.com/</p>
+                    <a href="https://www.biziday.ro/" class="ListaLink" title="Title" target="_blank">
+                        <h2 class="ListaTitlu">
+                            <img src="images/ro.svg" alt="Romanian" width="18" height="auto">
+                            Biziday
+                        </h2>
+                        <p class="ListaText">https://www.biziday.ro/</p>
                     </a>
                 </li>
 
                 <li class="ListaItem">
                     <a href="https://www.raducraciun.ro/" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">Radu Craciun</h2>
+                        <h2 class="ListaTitlu">
+                            <img src="images/ro.svg" alt="Romanian" width="18" height="auto">
+                            Radu Craciun
+                        </h2>
                         <p class="ListaText">https://www.raducraciun.ro/</p>
                     </a>
                 </li>
 
-                <li class="ListaItem">
-                    <a href="https://www.zf.ro/" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">Ziarul financiar</h2>
-                        <p class="ListaText">https://www.zf.ro/</p>
+                <!-- Facebook -->               
+                <li class="ListaItem" id="facebook">
+                    <a href="https://www.facebook.com/armand.gosu" class="ListaLink" title="Title" target="_blank">
+                        <h2 class="ListaTitlu">
+                            <img src="images/facebook-new.png" alt="Facebook Icon" width="22" height="auto">
+                            Armand Gossu
+                        </h2>
                     </a>
                 </li>
 
                 <li class="ListaItem">
-                    <a href="https://www.biziday.ro/" class="ListaLink" title="Title" target="_blank">
-                        <h2 class="ListaTitlu">Biziday</h2>
-                        <p class="ListaText">https://www.biziday.ro/</p>
+                    <a href="https://www.facebook.com/sorin.ionita.16" class="ListaLink" title="Title" target="_blank">
+                        <h2 class="ListaTitlu">
+                            <img src="images/facebook-new.png" alt="Facebook Icon" width="22" height="auto">
+                            Sorin Ionita
+                        </h2>
                     </a>
                 </li>
+
+                <li class="ListaItem">
+                    <a href="https://www.facebook.com/ElenaCalistru" class="ListaLink" title="Title" target="_blank">
+                        <h2 class="ListaTitlu">
+                            <img src="images/facebook-new.png" alt="Facebook Icon" width="22" height="auto">
+                            Elena Calistru
+                        </h2>
+                    </a>
+                </li>
+
+                <li class="ListaItem">
+                    <a href="https://www.facebook.com/cojocarivitalie" class="ListaLink" title="Title" target="_blank">
+                        <h2 class="ListaTitlu">
+                            <img src="images/facebook-new.png" alt="Facebook Icon" width="22" height="auto">
+                            Vitalie Cojocari
+                        </h2>
+                    </a>
+                </li>
+
 
 
             </ul>

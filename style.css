@@ -6,7 +6,7 @@
 
 
 html { 
-    background: black url(img) center center no-repeat;
+    background: black url("images/media-links-background-1.jpeg") center center no-repeat;
     background-size: cover; 
     color: white; 
 }
@@ -40,7 +40,11 @@ body {
 
 /* TODO */
 
-    header { }
+    header { 
+        display: flex;
+        justify-content: space-between;
+    }
+    @media (max-width: 700px) { header {flex-direction: column;} }
         .Avatar { 
             display: block; 
             width: 112px; 
@@ -66,6 +70,20 @@ body {
         }
         @media (min-width: 500px) {
             .DescrierePrincipala { margin-bottom: 0.5em; } }
+        
+        .MenuFlags { }
+
+            .MenuFlags a {
+                text-decoration: none;
+            }
+            .MenuFlags img {
+            margin: 0 0.5em 1em;
+            }
+            .MenuFlags img:hover {
+                width: 24px;
+                height: auto;
+            }
+
 
     main { clear: both; }
         .ListaLinkuri { 
