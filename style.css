@@ -124,7 +124,7 @@ body {
                         text-overflow: ellipsis;
                     }
 
-            @media (min-width: 700px) {
+            @media (min-width: 1200px) {
                 .ListaLinkuri { display: grid; grid-template-columns: 1fr 1fr; }
             }
 
