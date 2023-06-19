@@ -30,8 +30,8 @@ body { display: block; /* grid = best option */ place-items: center;
         .MenuFlags { display: flex; justify-content: space-around; align-items: center; 
             margin: 0 0 0.5rem 0.5rem; min-width: 30vw; }
             .MenuFlags a { text-decoration: none; }
-            .MenuFlags img { widht: 24px; height: auto; }
-            .MenuFlags img:hover { width: 28px; height: auto; }
+            .MenuFlags img { width: 50px; height: auto; margin: 0.5rem; }
+            .MenuFlags img:hover { box-shadow: 1px 1px 10px whitesmoke, -1px -1px 10px gray; }
             
     main { clear: both; }
         .ListaLinkuri { display: block; margin: 0; padding: 0; border-top: 1px solid #fff; }
